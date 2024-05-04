@@ -1,0 +1,8 @@
+div{
+    display: flex;
+    justify-content:  center;
+    cursor: pointer;
+}
+.cross{
+    text-decoration: line-through;
+}
