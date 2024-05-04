@@ -3,6 +3,9 @@ import Tesk from './Tesk/Tesk';
 function App() {
   return (
     <div className="App">
+      <h1>
+        My Tesks
+      </h1>
       <div className='container'>
       <Tesk tesk="this is a tesk" check={true} id='tesk1'/>
       <Tesk tesk="this is a tesk 2" check={false} id='tesk2'/>
