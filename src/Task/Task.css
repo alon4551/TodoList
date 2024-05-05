@@ -1,0 +1,43 @@
+div.task{
+    display: flex;
+    justify-content:  start;
+    cursor: pointer;
+    width: 75%;
+    border: 1px gray solid;
+    padding: 5px;
+    margin: 5px;
+    gap:10px;
+    border-radius: 15px;
+    animation: popin 1s ease-in forwards;
+}
+div.task>img{
+    width: 50px;
+}
+div.task> input[type=checkbox]{
+    transform: scale(1.5);
+    padding-left: 50px;
+}
+input.task{
+    font-size: larger;
+    border: 0px;
+    width: 100%;
+}
+.taskBtn{
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+.cross{
+    text-decoration: line-through;
+}
+
+@keyframes popin{
+    from{
+        opacity: 0;
+        transform: translate(0,5vh);
+    }
+    to{
+        opacity: 100%;
+        transform: translate(0,0);
+    }   
+}

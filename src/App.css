@@ -1,8 +1,27 @@
 .container{
+  position: relative;
   display: flex;
   width: 100%;
+  overflow-y: auto;
   flex-wrap: wrap;
   justify-content: center;
+  max-height: 70vh;
+  box-sizing: border-box;
+}
+.insertTask{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 30px;
+  width: 100%;
+  margin: 0 10px;
+  background-color: white;
+}
+.insertTask > input{
+  width: 75%;
+  padding:5px;
+  font-size: larger;
+
 }
 .App{
   width: 100vw;

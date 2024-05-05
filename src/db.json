@@ -1,47 +1,38 @@
 [
     {
-        "id":"tesk1",
-        "tesk":"this is check 1",
+        "task":"this is check 1",
+        "check":false
+    },
+    {
+        "task":"two",
         "check":true
     },
     {
-        "id":"tesk2",
-        "tesk":"snjdksanjkas",
+        "task":"three",
         "check":true
     },
     {
-        "id":"tesk3",
-        "tesk":"njknjkasfas",
+        "task":"four",
+        "check":false
+    },
+    {
+        "task":"five",
         "check":true
     },
     {
-        "id":"tesk4",
-        "tesk":"snadfknasj",
+        "task":"six",
+        "check":false
+    },
+    {
+        "task":"seven",
         "check":true
     },
     {
-        "id":"tesk5",
-        "tesk":"mskaldmlas",
-        "check":true
+        "task":"eight",
+        "check":false
     },
     {
-        "id":"tesk6",
-        "tesk":"sanbjfabsiuoiuoinkmv",
-        "check":true
-    },
-    {
-        "id":"tesk7",
-        "tesk":"sandjkaop",
-        "check":true
-    },
-    {
-        "id":"tesk8",
-        "tesk":"ksaluijk",
-        "check":true
-    },
-    {
-        "id":"tesk9",
-        "tesk":"h7hubjnkmohugiybhdks",
+        "task":"nine",
         "check":true
     }
 ]
