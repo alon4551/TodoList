@@ -12,12 +12,15 @@ function Task(props){
         setCheck(prev=>!prev)
     }
     const onChange =(data)=>{
-        setTask(data.target.value)
+        setTask(prev=>data.target.value)
     }
     useEffect(()=>{
-        setTask(props.task)
         document.querySelector(`input#${props.id}`).value=task
     })
+    useEffect(()=>{
+        setCheck(props.check);
+        setTask(props.task);
+    },[props])
     return <div className={`task popin`}>
         <img src="https://pngimg.com/uploads/dot/dot_PNG29.png" onClick={handleInputChange}/>
         <input type="checkbox" checked={check} onChange={handleInputChange}/>
